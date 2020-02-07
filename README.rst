@@ -8,6 +8,6 @@ Multiplex output from various ssh commands
 example
 ------
 
-sshmux.py host1 "tail -f /var/log/messages" host2 "tail -f /var/log/messages" host3 "tail -f /var/log/messages"
+sshmux.py host1,host2,host3 "tail -f /var/log/messages" host4 "tail -f /var/log/syslog"
 
 
